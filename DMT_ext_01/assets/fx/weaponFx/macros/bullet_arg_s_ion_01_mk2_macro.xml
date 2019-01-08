@@ -2,6 +2,8 @@
 <diff>
 	<replace sel="//bullet/@speed">5760</replace>
 	<replace sel="//bullet/@lifetime">0.5</replace>
+  <replace sel="//damage/@value">12</replace>
+  <replace sel="//damage/@shield">384</replace>
 </diff>
 <!--
 <macros>

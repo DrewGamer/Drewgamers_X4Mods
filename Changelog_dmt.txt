@@ -32,12 +32,14 @@ Version 1.2
 	- crystals on asteroids and the collectibles they drop are the same color as their glow
 	- ALL engines have had boost duration(efficiency) increased 3x (boost uses 3x less shields)
 	- increased damage of all guns (except gatling) by 1.5x
-	  (gatling inadvertantly got a 1.5x damage increase when removing the "reload")
+	  (gatling inadvertantly got a 1.5x damage increase when removing the "reload" and I liked the way
+	   the increased damage felt)
 	- M Beam guns re-tweaked damage increased by 1.5x (2.25x total), but heat generation increased by 1.5x
 	- gave pulse lasers a steady firerate (no "reload") and reduced their firerate by half
 	- "Weapon Output" in the in-game Encyclopedia now displays DPS for ALL weapons (in MW/sec)
 	- increased range of all turrets by 1.75x
 	- L turrets deal damage equal to M gun equivalent, per barrel (L turret = 2x M gun damage)
+	- M turrets deal damage between M and S gun equivalent, per barrel (M Turret = M+L gun damage)
 	- Beam turrets now fire from both barrels at once (to match other turrets' double barrel firing)
 	- destroyers now use a new weapon for their main battery (railgun)
 
