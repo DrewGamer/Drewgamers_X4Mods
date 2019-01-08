@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--Exported by: Michael (192.168.3.81) at 20.09.2018_17-35-22-->
+<macros>
+  <macro name="weapon_tel_l_beam_01_mk1_macro" class="weapon">
+    <component ref="weapon_tel_l_beam_01_mk1" />
+    <properties>
+      <identification mk="1" />
+      <bullet class="bullet_gen_l_mining_01_mk1_macro" />
+      <heat overheat="10000" cooldelay="1.13" coolrate="2000" reenable="7500" />
+      <rotationspeed max="20" />
+      <reload />
+      <hull max="8000" />
+    </properties>
+  </macro>
+</macros>
