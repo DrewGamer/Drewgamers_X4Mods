@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//bullet/@speed">299792458</replace>
+  <replace sel="//bullet/@lifetime">1</replace>
+  <replace sel="//bullet/@range">6490.75</replace>
+  <replace sel="//bullet/@barrelamount">2</replace>
+  <replace sel="//reload/@time">0</replace>
+  <replace sel="//damage/@value">201.6</replace>
+  <replace sel="//weapon/@system">turret_longrange</replace>
+</diff>
+<!--
+<macros>
+  <macro name="bullet_gen_turret_l_beam_01_mk1_macro" class="bullet">
+    <component ref="bullet_gen_m_beam_01_mk1" />
+    <properties>
+      <bullet speed="7000" lifetime="3" range="3709" amount="1" barrelamount="1" icon="weapon_beam_mk1" maxhits="1" ricochet="0" scale="1" attach="1" />
+      <reload time="5" />
+      <damage value="112" repair="0" />
+      <effects>
+        <impact ref="impact_gen_m_beam_01_mk1" />
+        <launch ref="muzzle_gen_m_beam_01_mk1" />
+      </effects>
+      <weapon system="turret_shortrange" />
+    </properties>
+  </macro>
+</macros>
+
+OLD DPS per barrel
+
+R = reload time
+L = lifetime
+D = damage per second
+DPS = D*L/R
+
+112*3/5 = 67.2
+-->

@@ -1,0 +1,52 @@
+List of all Changes:
+	- S ships no longer use boost when fighting other S ships
+	- all S shields delay reduced to 20% original values
+	- all M shields recharge delay removed
+	- Argon/Teladi L/XL shields recharge delay reduced to 1% original values
+	- Paranid/Xenon L/XL shields recharge delay reduced to 0.5% original values
+	- all projectile turrets rotatation speed increased by 3x (does not include missiles)
+	- Paranid M mining ship allowed to use mining turrets
+	- removed the "wubwub" impact sound from Spacesuit Repair Laser
+	- increased range of the Spacesuit Repair laser by 4x
+	- increased the repair rate of Spacesuit Repair laser by 10x
+	- spacesuit laser damage increased by 10x (makes breaking locks with spacesuit easily doable)
+	- all projectile speeds increased by 3x (does not include missiles)
+	- beam projectile speed increased to 299,792,458 m/s, making them essentially hitscan
+	- beam weapons(not turrets) no longer have initial firing heat (but overheat faster to compensate) 
+	- beam weapons(not turrets) have no fire delay, and can fire continuously
+	- removed the "reload" from all Gatling Gun weapons (can fire continuously)
+	- crystals now glow a color according to "rpg rarity" (white, green, blue, purple, orange): thanks to Shuruna's Crystal Finder mod!
+	- bailing no longer causes ship damage when pilots bail
+	- bailing now gives a bonus (up to 2x chance) when attacking ship has more hull than defending ship
+
+Version 1.0
+	- initial release
+
+Version 1.1
+	- crystals now glow a color according to "rpg rarity" (white, green, blue, purple, orange): thanks to Shuruna's Crystal Finder mod!
+	- mod is now contained in cat/dat for easy upgrading to future versions
+	- bailing no longer causes ship damage when pilots bail
+	- bailing now gives a bonus (up to 2x chance) when attacking ship has more hull than defending ship
+
+Version 1.2
+	- crystals on asteroids and the collectibles they drop are the same color as their glow
+	- ALL engines have had boost duration(efficiency) increased 3x (boost uses 3x less shields)
+	- increased damage of all guns (except gatling) by 1.5x
+	  (gatling inadvertantly got a 1.5x damage increase when removing the "reload")
+	- M Beam guns re-tweaked damage increased by 1.5x (2.25x total), but heat generation increased by 1.5x
+	- gave pulse lasers a steady firerate (no "reload") and reduced their firerate by half
+	- "Weapon Output" in the in-game Encyclopedia now displays DPS for ALL weapons (in MW/sec)
+	- increased range of all turrets by 1.75x
+	- L turrets deal damage equal to M gun equivalent, per barrel (L turret = 2x M gun damage)
+	- Beam turrets now fire from both barrels at once (to match other turrets' double barrel firing)
+	- destroyers now use a new weapon for their main battery (railgun)
+
+So all together:
+
+R = reload time
+B = bullets in magazine
+F = bullets per second
+D = damage per bullet
+DPS = B*D/(R+B/F)
+
+18*11 / 1+18/12

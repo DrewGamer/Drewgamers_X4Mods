@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//bullet/@speed">1026</replace>
+	<replace sel="//bullet/@lifetime">9.882</replace>
+  <replace sel="//damage/@value">492</replace>
+</diff>
+<!--
+<macros>
+  <macro name="bullet_gen_turret_l_plasma_01_mk1_macro" class="bullet">
+    <component ref="bullet_gen_m_plasma_01_mk1" />
+    <properties>
+      <bullet speed="342" lifetime="16.941" amount="1" barrelamount="2" icon="weapon_plasma_mk1" timediff="0.003" angle="0.03" maxhits="1" ricochet="0" scale="0" attach="0" />
+      <reload rate="0.935" />
+      <damage value="164" repair="0" />
+      <effects>
+        <impact ref="impact_gen_m_plasma_01_mk1" />
+        <launch ref="muzzle_gen_m_plasma_01_mk1" />
+      </effects>
+      <weapon system="turret_longrange" />
+    </properties>
+  </macro>
+</macros>
+-->

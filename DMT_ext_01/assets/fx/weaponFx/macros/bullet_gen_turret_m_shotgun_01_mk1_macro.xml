@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//bullet/@speed">7344</replace>
+	<replace sel="//bullet/@lifetime">0.27</replace>
+</diff>
+<!--
+<macros>
+  <macro name="bullet_gen_turret_m_shotgun_01_mk1_macro" class="bullet">
+    <component ref="bullet_gen_s_shotgun_01_mk1" />
+    <properties>
+      <bullet speed="2448" lifetime="0.8" amount="5" barrelamount="2" icon="weapon_shotgun_mk1" timediff="0.003" angle="1.25" maxhits="3" ricochet="0.5" restitution="0.5" scale="0" attach="0" />
+      <reload rate="0.85" />
+      <damage value="12" repair="0" />
+      <effects>
+        <impact ref="impact_gen_s_shotgun_01_mk1" />
+        <launch ref="muzzle_gen_s_shotgun_01_mk1" />
+      </effects>
+      <weapon system="turret_shortrange" />
+    </properties>
+  </macro>
+</macros>
+-->

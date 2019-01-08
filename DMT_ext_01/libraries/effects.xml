@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//effect[@name='muzzle_par_m_railgun_01_mk1']//sound/@ref">wpn_railgun_player_muzzle</replace>
+</diff>
