@@ -2,6 +2,8 @@
 <diff>
 	<replace sel="//bullet/@speed">12096</replace>
 	<replace sel="//bullet/@lifetime">0.305</replace>
+  <replace sel="//bullet/@amount">6</replace>
+  <replace sel="//heat/@value">122</replace>
   <replace sel="//damage/@value">58.5</replace>
 </diff>
 <!--

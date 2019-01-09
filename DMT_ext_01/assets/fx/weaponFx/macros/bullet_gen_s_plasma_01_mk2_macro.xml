@@ -2,7 +2,9 @@
 <diff>
 	<replace sel="//bullet/@speed">1509</replace>
 	<replace sel="//bullet/@lifetime">2.667</replace>
-  <replace sel="//damage/@value">825</replace>
+  <replace sel="//heat/@value">939.33</replace>
+  <replace sel="//reload/@rate">1.5</replace>
+  <replace sel="//damage/@value">550</replace>
 </diff>
 <!--
 <macros>
