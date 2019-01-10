@@ -41,8 +41,8 @@ Version 1.2
 	- gave pulse lasers a steady firerate (no "reload") and reduced their firerate by half (damage increased to compensate)
 	- "Weapon Output" in the in-game Encyclopedia now displays DPS for ALL weapons (in MW/sec)
 	- L turrets are now equivalent to two of their M gun equivalents (range, damage, firerate, ect)
-	- M turrets are now equivalent to their M + S gun equivalents (range, damage, firerate, ect)
-	- Beam turrets now fire from both barrels at once (to match other turrets' double barrel firing)
+	- M turrets are now do 2x S damage, but with the range of M equivalents
+	- Beam turrets now fire from both barrels at once, all other turrets alternate barrels
 	- destroyers now use a new weapon for their main battery (railgun)
 
 So all together:

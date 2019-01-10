@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<replace sel="//bullet/@speed">7344</replace>
-	<replace sel="//bullet/@lifetime">0.27</replace>
+	<replace sel="//bullet/@speed">12096</replace>
+	<replace sel="//bullet/@lifetime">0.305</replace>
+  <replace sel="//bullet/@amount">5</replace>
+  <replace sel="//bullet/@barrelamount">2</replace>
+  <replace sel="//reload/@rate">1</replace>
+  <replace sel="//damage/@value">37.5</replace>
 </diff>
 <!--
 <macros>

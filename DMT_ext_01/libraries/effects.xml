@@ -1,4 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
 	<replace sel="//effect[@name='muzzle_par_m_railgun_01_mk1']//sound/@ref">wpn_railgun_player_muzzle</replace>
+
+	<add sel="//effect[@name='muzzle_gen_s_gatling_01_mk1']/elements">
+		<element id="6" ref="effect_dummy_macro" forkeffect="none" duration="1.5" forklod="none">
+      <sound ref="wpn_mg_muzzle"></sound>
+    </element>
+	</add>
 </diff>

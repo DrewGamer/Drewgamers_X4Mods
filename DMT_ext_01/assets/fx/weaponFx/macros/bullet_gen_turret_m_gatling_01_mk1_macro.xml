@@ -3,8 +3,9 @@
 	<replace sel="//ammunition/@reload">0</replace>
 	<replace sel="//bullet/@speed">6120</replace>
 	<replace sel="//bullet/@lifetime">0.44</replace>
-  <replace sel="//reload/@rate">10</replace>
-	<replace sel="//damage/@value">14.4</replace>
+  <replace sel="//bullet/@barrelamount">1</replace>
+  <replace sel="//reload/@rate">20</replace>
+	<replace sel="//damage/@value">16.2</replace>
 </diff>
 <!--
 <macros>
