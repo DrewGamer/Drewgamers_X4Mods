@@ -2,10 +2,10 @@
 <diff>
   <replace sel="//ammunition/@reload">0</replace>
 	<replace sel="//bullet/@speed">13686</replace>
-	<replace sel="//bullet/@lifetime">0.367</replace>
+	<replace sel="//bullet/@lifetime">0.5505</replace>
   <replace sel="//bullet/@barrelamount">1</replace>
-  <replace sel="//reload/@rate">10</replace>
-  <replace sel="//damage/@value">37.8</replace>
+  <replace sel="//reload/@rate">5</replace>
+  <replace sel="//damage/@value">75.6</replace>
   <replace sel="//weapon/@system">turret_longrange</replace>
 </diff>
 <!--

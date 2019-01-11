@@ -1,11 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <replace sel="//ammunition/@reload">0</replace>
-	<replace sel="//bullet/@speed">6120</replace>
-	<replace sel="//bullet/@lifetime">0.441</replace>
+	<replace sel="//bullet/@speed">5760</replace>
+	<replace sel="//bullet/@lifetime">0.833</replace>
   <replace sel="//bullet/@barrelamount">1</replace>
-  <replace sel="//reload/@rate">12</replace>
-	<replace sel="//damage/@value">20.25</replace>
+  <replace sel="//reload/@rate">5</replace>
+	<replace sel="//damage/@value">70.68</replace>
 </diff>
 <!--
 <macros>

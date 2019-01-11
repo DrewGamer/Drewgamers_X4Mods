@@ -42,11 +42,11 @@
                     <!-- response to demand to surrender. reflects the nerve of the captain and his ability to hold the crew together. -->
                     <do_if value="event.name != 'event_cue_signalled' or (($target.people.count)f / ($target.people.capacity)f) lt ((16 - $target.pilot.skill.morale)f / 16.0)">
                       <!-- ejectchance range: 23-46%, inversely proportional to crew skill,
-                        multiplied by (mymaxhull)/(targetmaxhull) capped at 2.0, but no less than 1.0,
+                        multiplied by (mymaxhull)/(targetmaxhull) capped at 1.5, but no less than 1.0,
                         multiplied by (((myshieldperc+myhullperc)/(targetshieldperc+targethullperc))) capped to 1.0,
                         reduced to a quarter if attacker is not personally flown by the player. -->
                       <!-- crew just making a run for it. looks at crew state as a whole and rough state of the battle. -->
-                      <set_value name="$ejectchance" exact="( (46 - $target.combinedskill / 5) * [(($attacker.maxhull)f / [($target.maxhull)f, 1.0].min), 1.0].max * [(($attacker.shieldpercentage + $attacker.hullpercentage) / [($target.shieldpercentage + $target.hullpercentage), 1.0].max), 1.0].min )i"/>
+                      <set_value name="$ejectchance" exact="( (46 - $target.combinedskill / 5) * [(($attacker.maxhull)f / [($target.maxhull)f, 1.5].min), 1.0].max * [(($attacker.shieldpercentage + $attacker.hullpercentage) / [($target.shieldpercentage + $target.hullpercentage), 1.0].max), 1.0].min )i"/>
                       <do_if value="$attacker != @player.occupiedship">
                         <set_value name="$ejectchance" exact="$ejectchance / 4"/>
                       </do_if>

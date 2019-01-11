@@ -1,11 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <replace sel="//ammunition/@reload">0</replace>
+  <replace sel="//ammunition/@reload">0.65</replace>
 	<replace sel="//bullet/@speed">7200</replace>
-	<replace sel="//bullet/@lifetime">0.417</replace>
-  <replace sel="//heat/@value">44</replace>
-  <replace sel="//reload/@rate">8</replace>
-	<replace sel="//damage/@value">29.25</replace>
+	<replace sel="//bullet/@lifetime">0.42</replace>
+  <replace sel="//heat/@value">59</replace>
+  <replace sel="//reload/@rate">13</replace>
+	<replace sel="//damage"><damage min="24" max="40" value="30" repair="0" /></replace>
 </diff>
 <!--
 <macros>
@@ -25,4 +25,15 @@
     </properties>
   </macro>
 </macros>
+
+OLD DPS per barrel
+
+R = reload time
+B = bullets in magazine
+F = bullets per second
+D = damage per bullet
+DPS = B∗D/(R+B/F)
+
+7*20 / 0.65+ 7/13 = 117.8
+7*20 / 1.188461538461538 = 117.8
 -->

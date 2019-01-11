@@ -52,6 +52,3 @@ Version 2.0
 	- Kha'ak M beam equal damage/heat to commonwealth M beam mk1, range is 1.5x
 	- Kha'ak S beam equal damage/heat to commonwealth S beam mk1, range is 1.5x
 	- bailing bonus set to max of 1.5x (still min 1.0)
-
-Version 2.1
-	- completely removed regen delay on L/XL shields //TODO

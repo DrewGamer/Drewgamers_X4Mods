@@ -1,8 +1,10 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
 	<replace sel="//bullet/@speed">6222</replace>
-	<replace sel="//bullet/@lifetime">1.25</replace>
-  <replace sel="//damage/@value">1634</replace>
+	<replace sel="//bullet/@lifetime">1.61</replace>
+  <replace sel="//heat/@value">315</replace>
+  <replace sel="//reload/@rate">4</replace>
+	<replace sel="//damage/@value">1225.5</replace>
 </diff>
 <!--
 <macros>
