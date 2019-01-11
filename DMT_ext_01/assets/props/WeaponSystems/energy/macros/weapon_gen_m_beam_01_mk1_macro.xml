@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Exported by: nick (192.168.3.120) at 30.11.2018_10-43-09-->
-<macros>
+<diff>
+  <add sel="//properties">
+    <sounds>
+        <firing ref="wpn_beam_gen_01" />
+    </sounds>
+  </add>
+</diff>
+<!--macros>
   <macro name="weapon_gen_m_beam_01_mk1_macro" class="weapon">
     <component ref="weapon_gen_m_beam_01_mk1" />
     <properties>
@@ -13,4 +19,4 @@
       <hull max="1001" hittable="0" />
     </properties>
   </macro>
-</macros>
+</macros-->

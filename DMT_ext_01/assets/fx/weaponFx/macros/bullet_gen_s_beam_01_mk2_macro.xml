@@ -3,7 +3,7 @@
 	<replace sel="//bullet/@speed">299792458</replace>
 	<replace sel="//bullet/@lifetime">1</replace>
 	<replace sel="//heat/@initial">0</replace>
-	<replace sel="//heat/@value">327.2</replace>
+	<replace sel="//heat/@value">327</replace>
 	<replace sel="//reload/@time">0</replace>
 	<replace sel="//damage/@value">168</replace>
 </diff>

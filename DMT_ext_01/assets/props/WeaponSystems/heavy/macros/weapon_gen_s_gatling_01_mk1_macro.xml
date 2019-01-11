@@ -1,6 +1,8 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Exported by: nick (192.168.3.120) at 30.11.2018_11-11-53-->
-<macros>
+<diff>
+  <remove sel="//sounds"/>
+</diff>
+<!--macros>
   <macro name="weapon_gen_s_gatling_01_mk1_macro" class="weapon">
     <component ref="weapon_gen_s_gatling_01_mk1" />
     <properties>
@@ -19,4 +21,4 @@
       </sounds>
     </properties>
   </macro>
-</macros>
+</macros-->

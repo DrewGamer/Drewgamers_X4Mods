@@ -1,7 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
+  <replace sel="//ammunition/@reload">0</replace>
 	<replace sel="//bullet/@speed">5760</replace>
 	<replace sel="//bullet/@lifetime">0.833</replace>
+  <replace sel="//heat/@value">60</replace>
+	<replace sel="//reload/@rate">6</replace>
+	<replace sel="//damage/@value">62</replace>
 </diff>
 <!--
 <macros>

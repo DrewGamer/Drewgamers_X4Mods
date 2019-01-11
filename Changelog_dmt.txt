@@ -43,14 +43,5 @@ Version 1.2
 	- L turrets are now equivalent to two of their M gun equivalents (range, damage, firerate, ect)
 	- M turrets are now do 2x S damage, but with the range of M equivalents
 	- Beam turrets now fire from both barrels at once, all other turrets alternate barrels
-	- destroyers now use a new weapon for their main battery (railgun)
-
-So all together:
-
-R = reload time
-B = bullets in magazine
-F = bullets per second
-D = damage per bullet
-DPS = B*D/(R+B/F)
-
-18*11 / 1+18/12
+	- destroyers now use a new weapon for their main battery (railgun) WORK IN PROGRESS
+	- fixed firing sound on gatling turrets and beam turrets

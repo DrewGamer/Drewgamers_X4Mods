@@ -3,9 +3,15 @@
 	<replace sel="//bullet/@speed">299792458</replace>
 	<replace sel="//bullet/@lifetime">1</replace>
 	<replace sel="//heat/@initial">0</replace>
-	<replace sel="//heat/@value">541.5</replace>
+	<replace sel="//heat/@value">541</replace>
 	<replace sel="//reload/@time">0</replace>
 	<replace sel="//damage/@value">220.5</replace>
+
+  <add sel="//properties">
+    <sounds>
+      <ambient ref="wpn_beam_gen_startshooting" />
+    </sounds>
+  </add>
 </diff>
 <!--
 <macros>

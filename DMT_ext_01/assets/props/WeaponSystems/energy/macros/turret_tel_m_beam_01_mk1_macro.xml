@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
 	<replace sel="//rotationspeed/@max">270</replace>
+  
+  <add sel="//properties">
+    <sounds>
+        <firing ref="wpn_beam_gen_01" />
+    </sounds>
+  </add>
 </diff>
 <!--
 <macros>

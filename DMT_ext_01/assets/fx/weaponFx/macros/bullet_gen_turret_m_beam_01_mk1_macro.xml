@@ -7,6 +7,12 @@
   <replace sel="//reload/@time">0</replace>
   <replace sel="//damage/@value">108</replace>
   <replace sel="//weapon/@system">turret_midrange</replace>
+
+  <add sel="//properties">
+    <sounds>
+      <ambient ref="wpn_beam_gen_startshooting" />
+    </sounds>
+  </add>
 </diff>
 <!--
 <macros>

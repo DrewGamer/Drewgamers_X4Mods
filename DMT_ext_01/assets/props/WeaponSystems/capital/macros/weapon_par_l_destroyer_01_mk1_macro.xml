@@ -1,6 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Exported by: nick (192.168.3.120) at 30.11.2018_10-43-54-->
-<macros>
+<diff>
+  <add sel="//properties">
+    <effects>
+      <firing start="startshooting_gen_l_laser_01_mk1"/>
+    </effects>
+  </add>
+</diff>
+<!--macros>
   <macro name="weapon_par_l_destroyer_01_mk1_macro" class="weapon">
     <component ref="weapon_par_l_destroyer_01_mk1" />
     <properties>
@@ -13,4 +19,4 @@
       <hull max="8000" />
     </properties>
   </macro>
-</macros>
+</macros-->

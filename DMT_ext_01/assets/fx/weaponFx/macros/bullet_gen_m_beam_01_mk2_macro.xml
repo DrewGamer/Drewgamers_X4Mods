@@ -6,6 +6,12 @@
 	<replace sel="//heat/@value">363</replace>
 	<replace sel="//reload/@time">0</replace>
 	<replace sel="//damage/@value">252</replace>
+
+  <add sel="//properties">
+    <sounds>
+      <ambient ref="wpn_beam_gen_startshooting" />
+    </sounds>
+  </add>
 </diff>
 <!--
 <macros>

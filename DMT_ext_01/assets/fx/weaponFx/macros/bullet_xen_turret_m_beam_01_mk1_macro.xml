@@ -1,9 +1,18 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<replace sel="//bullet/@speed">299792458</replace>
-  <replace sel="//bullet/@range">7650</replace>
-  <replace sel="//damage/@value">58</replace>
+  <replace sel="//bullet/@speed">299792458</replace>
+  <replace sel="//bullet/@lifetime">1</replace>
+  <replace sel="//bullet/@range">4364</replace>
+  <replace sel="//bullet/@barrelamount">2</replace>
+  <replace sel="//reload/@time">0</replace>
+  <replace sel="//damage/@value">108</replace>
   <replace sel="//weapon/@system">turret_midrange</replace>
+
+  <add sel="//properties">
+    <sounds>
+      <ambient ref="wpn_beam_gen_01" />
+    </sounds>
+  </add>
 </diff>
 <!--
 <macros>

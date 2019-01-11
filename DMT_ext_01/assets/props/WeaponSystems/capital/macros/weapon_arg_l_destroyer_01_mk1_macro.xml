@@ -1,6 +1,17 @@
 <?xml version="1.0" encoding="utf-8"?>
-<!--Exported by: nick (192.168.3.120) at 30.11.2018_10-41-58-->
-<macros>
+<diff>
+  <add sel="//properties">
+    <effects>
+      <firing start="startshooting_gen_l_laser_01_mk1"/>
+    </effects>
+  </add>
+  <add sel="//properties">
+    <sounds>
+      <firing ref="dmt_railgun_l_charging" />
+    </sounds>
+  </add>
+</diff>
+<!--macros>
   <macro name="weapon_arg_l_destroyer_01_mk1_macro" class="weapon">
     <component ref="weapon_arg_l_destroyer_01_mk1" />
     <properties>
@@ -13,4 +24,4 @@
       <hull max="8000" />
     </properties>
   </macro>
-</macros>
+</macros-->
