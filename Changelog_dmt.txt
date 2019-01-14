@@ -54,4 +54,7 @@ Version 2.0
 	- bailing bonus set to max of 1.5x (still min 1.0)
 
 Version 2.1
-	- completely removed regen delay on L/XL shields //TODO
+	- completely removed regen delay on L/XL shields
+	- Xenon shields have Paranid recharge, with Teladi capacity
+	- countermeasure amounts increased 5x for all ships
+	- turrets that are on missile defense will shoot down all hostile missiles in the area (prioritizing missiles shot at the ship before targeting others)

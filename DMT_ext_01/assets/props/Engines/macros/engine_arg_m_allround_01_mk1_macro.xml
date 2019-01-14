@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-  <replace sel="//boost/@duration">30</replace>
+  <replace sel="//boost/@duration">21</replace>
 </diff>
 <!--
 <macros>

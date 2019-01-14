@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <diff>
-	<replace sel="//recharge/@delay">0.154</replace>
+	<replace sel="//recharge"><recharge max="30546" rate="277" delay="0" /></replace>
 </diff>
 <!--
 <macros>

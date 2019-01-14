@@ -6,7 +6,7 @@
 		</element>
 	</add>
 
-	<add sel="//effects">
+	<add sel="/effects">
 		<effect name="startshooting_gen_l_laser_01_mk1" alignment="object" emitterspace="zone">
     	<elements>
       	<element id="1" ref="effect_dummy_macro" duration="1">
@@ -33,7 +33,7 @@
 		</effect>
 	</replace>
 
-	<replace sel="">
+	<replace sel="//effect[@name='impact_gen_l_laser_01_mk1']">
 		<effect name="impact_gen_l_laser_01_mk1" alignment="normal">
 			<elements>
 				<!-- Impact Geometry -->
