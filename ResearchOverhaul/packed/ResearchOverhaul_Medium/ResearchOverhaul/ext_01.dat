@@ -1,0 +1,319 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<!-- =============== -->
+	<!-- Duration Change -->
+	<!-- =============== -->
+	<!-- Teleportation	-->
+	<!-- Teleportation rank 1 is really important so I'll consider the research is already almost complete when we discover the PHQ -->
+	<replace sel="/wares/ware[@id='research_teleportation']/research/@time">900</replace>
+	<replace sel="/wares/ware[@id='research_teleportation_range_01']/research/@time">1800</replace>
+	<replace sel="/wares/ware[@id='research_teleportation_range_02']/research/@time">3600</replace>
+	<replace sel="/wares/ware[@id='research_teleportation_range_03']/research/@time">7200</replace>
+	
+	<!-- Module Hack -->
+	<replace sel="/wares/ware[@id='research_module_dock']/research/@time">900</replace>
+	<replace sel="/wares/ware[@id='research_module_production']/research/@time">900</replace>
+	<replace sel="/wares/ware[@id='research_module_storage']/research/@time">900</replace>
+	
+	<replace sel="/wares/ware[@id='research_module_defence']/research/@time">1800</replace>
+	<replace sel="/wares/ware[@id='research_module_habitation']/research/@time">1800</replace>
+	
+	<!-- Mods -->
+	<replace sel="/wares/ware[@id='research_mod_engine_mk1']/research/@time">1800</replace>
+	<replace sel="/wares/ware[@id='research_mod_shield_mk1']/research/@time">1800</replace>
+	<replace sel="/wares/ware[@id='research_mod_ship_mk1']/research/@time">1800</replace>
+	<replace sel="/wares/ware[@id='research_mod_weapon_mk1']/research/@time">1800</replace>
+	
+	<replace sel="/wares/ware[@id='research_mod_engine_mk2']/research/@time">3600</replace>
+	<replace sel="/wares/ware[@id='research_mod_shield_mk2']/research/@time">3600</replace>
+	<replace sel="/wares/ware[@id='research_mod_ship_mk2']/research/@time">3600</replace>
+	<replace sel="/wares/ware[@id='research_mod_weapon_mk2']/research/@time">3600</replace>
+	
+	<replace sel="/wares/ware[@id='research_mod_engine_mk3']/research/@time">7200</replace>
+	<replace sel="/wares/ware[@id='research_mod_shield_mk3']/research/@time">7200</replace>
+	<replace sel="/wares/ware[@id='research_mod_ship_mk3']/research/@time">7200</replace>
+	<replace sel="/wares/ware[@id='research_mod_weapon_mk3']/research/@time">7200</replace>
+	
+	<!-- ======================= -->
+	<!-- Adds Wares for Research -->
+	<!-- ======================= -->
+	<!-- Teleportation	-->
+	<add sel="/wares/ware[@id='research_teleportation']/research">
+			<primary>
+				<ware ware="energycells" amount="450" />
+				<ware ware="smartchips" amount="90" />
+				<ware ware="antimatterconverters" amount="45" />
+				<ware ware="fieldcoils" amount="30" />
+				<ware ware="advancedelectronics" amount="15" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_teleportation_range_01']/research">
+			<primary>
+				<ware ware="energycells" amount="9468" />
+				<ware ware="smartchips" amount="1894" />
+				<ware ware="antimatterconverters" amount="947" />
+				<ware ware="fieldcoils" amount="631" />
+				<ware ware="advancedelectronics" amount="316" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_teleportation_range_02']/research">
+			<primary>
+				<ware ware="energycells" amount="36720" />
+				<ware ware="smartchips" amount="7344" />
+				<ware ware="antimatterconverters" amount="3672" />
+				<ware ware="fieldcoils" amount="2448" />
+				<ware ware="advancedelectronics" amount="1224" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_teleportation_range_03']/research">
+			<primary>
+				<ware ware="energycells" amount="165600" />
+				<ware ware="smartchips" amount="33120" />
+				<ware ware="antimatterconverters" amount="16560" />
+				<ware ware="fieldcoils" amount="11040" />
+				<ware ware="advancedelectronics" amount="5520" />
+			</primary>
+	</add>
+	<!-- Module Hack -->
+	<add sel="/wares/ware[@id='research_module_dock']/research">
+			<primary>
+				<ware ware="energycells" amount="9468" />
+				<ware ware="advancedelectronics" amount="316" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_module_production']/research">
+			<primary>
+				<ware ware="energycells" amount="9468" />
+				<ware ware="advancedelectronics" amount="316" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_module_storage']/research">
+			<primary>
+				<ware ware="energycells" amount="9468" />
+				<ware ware="advancedelectronics" amount="316" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_module_defence']/research">
+			<primary>
+				<ware ware="energycells" amount="36720" />
+				<ware ware="advancedelectronics" amount="1224" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_module_habitation']/research">
+			<primary>
+				<ware ware="energycells" amount="36720" />
+				<ware ware="advancedelectronics" amount="1224" />
+			</primary>
+	</add>
+	<!-- Mods -->
+	<add sel="/wares/ware[@id='research_mod_engine_mk1']/research">
+			<primary>
+				<ware ware="energycells" amount="9468" />
+				<ware ware="smartchips" amount="1894" />
+				<ware ware="antimatterconverters" amount="947" />
+				<ware ware="fieldcoils" amount="631" />
+				<ware ware="advancedelectronics" amount="316" />
+				<ware ware="engineparts" amount="316" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_mod_shield_mk1']/research">
+			<primary>
+				<ware ware="energycells" amount="9468" />
+				<ware ware="smartchips" amount="1894" />
+				<ware ware="antimatterconverters" amount="947" />
+				<ware ware="fieldcoils" amount="631" />
+				<ware ware="advancedelectronics" amount="316" />
+				<ware ware="shieldcomponents" amount="947" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_mod_ship_mk1']/research">
+			<primary>
+				<ware ware="energycells" amount="9468" />
+				<ware ware="smartchips" amount="1894" />
+				<ware ware="antimatterconverters" amount="947" />
+				<ware ware="fieldcoils" amount="631" />
+				<ware ware="advancedelectronics" amount="316" />
+				<ware ware="hullparts" amount="379" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_mod_weapon_mk1']/research">
+			<primary>
+				<ware ware="energycells" amount="9468" />
+				<ware ware="smartchips" amount="1894" />
+				<ware ware="antimatterconverters" amount="947" />
+				<ware ware="fieldcoils" amount="631" />
+				<ware ware="advancedelectronics" amount="316" />
+				<ware ware="weaponcomponents" amount="473" />
+			</primary>
+	</add>
+	<!-- Lv. 2 -->
+	<add sel="/wares/ware[@id='research_mod_engine_mk2']/research">
+			<primary>
+				<ware ware="energycells" amount="36720" />
+				<ware ware="smartchips" amount="7344" />
+				<ware ware="antimatterconverters" amount="3672" />
+				<ware ware="fieldcoils" amount="2448" />
+				<ware ware="advancedelectronics" amount="1224" />
+				<ware ware="engineparts" amount="1224" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_mod_shield_mk2']/research">
+			<primary>
+				<ware ware="energycells" amount="36720" />
+				<ware ware="smartchips" amount="7344" />
+				<ware ware="antimatterconverters" amount="3672" />
+				<ware ware="fieldcoils" amount="2448" />
+				<ware ware="advancedelectronics" amount="1224" />
+				<ware ware="shieldcomponents" amount="3672" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_mod_ship_mk2']/research">
+			<primary>
+				<ware ware="energycells" amount="36720" />
+				<ware ware="smartchips" amount="7344" />
+				<ware ware="antimatterconverters" amount="3672" />
+				<ware ware="fieldcoils" amount="2448" />
+				<ware ware="advancedelectronics" amount="1224" />
+				<ware ware="hullparts" amount="1469" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_mod_weapon_mk2']/research">
+			<primary>
+				<ware ware="energycells" amount="36720" />
+				<ware ware="smartchips" amount="7344" />
+				<ware ware="antimatterconverters" amount="3672" />
+				<ware ware="fieldcoils" amount="2448" />
+				<ware ware="advancedelectronics" amount="1224" />
+				<ware ware="weaponcomponents" amount="1836" />
+			</primary>
+	</add>
+	<!-- Lv3. -->
+	<add sel="/wares/ware[@id='research_mod_engine_mk3']/research">
+			<primary>
+				<ware ware="energycells" amount="165600" />
+				<ware ware="smartchips" amount="33120" />
+				<ware ware="antimatterconverters" amount="16560" />
+				<ware ware="fieldcoils" amount="11040" />
+				<ware ware="advancedelectronics" amount="5520" />
+				<ware ware="engineparts" amount="5520" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_mod_shield_mk3']/research">
+			<primary>
+				<ware ware="energycells" amount="165600" />
+				<ware ware="smartchips" amount="33120" />
+				<ware ware="antimatterconverters" amount="16560" />
+				<ware ware="fieldcoils" amount="11040" />
+				<ware ware="advancedelectronics" amount="5520" />
+				<ware ware="shieldcomponents" amount="16560" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_mod_ship_mk3']/research">
+			<primary>
+				<ware ware="energycells" amount="165600" />
+				<ware ware="smartchips" amount="33120" />
+				<ware ware="antimatterconverters" amount="16560" />
+				<ware ware="fieldcoils" amount="11040" />
+				<ware ware="advancedelectronics" amount="5520" />
+				<ware ware="hullparts" amount="6624" />
+			</primary>
+	</add>
+	<add sel="/wares/ware[@id='research_mod_weapon_mk3']/research">
+			<primary>
+				<ware ware="energycells" amount="165600" />
+				<ware ware="smartchips" amount="33120" />
+				<ware ware="antimatterconverters" amount="16560" />
+				<ware ware="fieldcoils" amount="11040" />
+				<ware ware="advancedelectronics" amount="5520" />
+				<ware ware="weaponcomponents" amount="8280" />
+			</primary>
+	</add>
+</diff><?xml version="1.0" encoding="utf-8" ?>
+<mdscript name="ResearchOverhaul" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+    <cue name="RegisterMyResearchOverhaul" version="1">
+      <conditions>
+        <event_cue_completed cue="md.G_Workaround.Init" />
+      </conditions>
+      <actions>
+		<raise_lua_event name="'RegisterAddon'" param="'extensions/ResearchOverhaul/ResearchOverhaul.lua'"/>
+      </actions>
+    </cue>
+    <cue name="Feedback_Wanted">
+      <conditions>
+        <event_cue_completed cue="RegisterMyMod"/>
+      </conditions>
+      <actions>
+        <debug_text text="'ResearchOverhaul Cue Loaded'" filter="error"/>
+        <reset_cue cue="RegisterMyResearchOverhaul"/>
+        <reset_cue cue="Feedback_Wanted"/>
+      </actions>
+    </cue>
+    <!--<cue name="Reset" version="2">
+      <conditions>
+        <event_game_loaded />
+      </conditions>
+      <actions>
+        <reset_cue cue="RegistermyMod"/>
+        <reset_cue cue="Feedback_Wanted"/>
+        <reset_cue cue="Reset"/>
+      </actions>
+    </cue>-->
+  </cues>
+</mdscript><?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/language/page[@id='1026']">
+		<t id="7410">Не закончено предыдущее исследование или не хватает ресурсов</t>
+	</add>
+</diff>
+<!-- Thanks to Yardanico for the translation --><?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/language/page[@id='1026']">
+		<t id="7410">Recherche précédente manquante ou ressources insuffisantes.</t>
+	</add>
+</diff><?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/language/page[@id='1026']">
+		<t id="7410">Missing previous research or not enough wares. </t>
+	</add>
+</diff><?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/language/page[@id='1026']">
+		<t id="7410">Manca una ricerca precedente oppure non ci sono sufficienti risorse.</t>
+	</add>
+</diff><?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/language/page[@id='1026']">
+		<t id="7410">Missing previous research or not enough wares.</t>
+	</add>
+</diff><?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/language/page[@id='1026']">
+		<t id="7410">Der vorherige Rang der Forschung wird vorausgesetzt, oder es fehlt an Waren</t>
+	</add>
+</diff><?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/language/page[@id='1026']">
+		<t id="7410">Missing previous research or not enough wares. </t>
+	</add>
+</diff><?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/language/page[@id='1026']">
+		<t id="7410">Missing previous research or not enough wares. </t>
+	</add>
+</diff><?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/language/page[@id='1026']">
+		<t id="7410">Missing previous research or not enough wares. </t>
+	</add>
+</diff><?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/language/page[@id='1026']">
+		<t id="7410">Missing previous research or not enough wares. </t>
+	</add>
+</diff><?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<add sel="/language/page[@id='1026']">
+		<t id="7410">Missing previous research or not enough wares. </t>
+	</add>
+</diff>
