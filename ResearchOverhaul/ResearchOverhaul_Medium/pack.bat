@@ -9,5 +9,5 @@ mkdir ..\packed\ResearchOverhaul_Medium\ResearchOverhaul
 copy .\content.xml ..\packed\ResearchOverhaul_Medium\ResearchOverhaul\
 copy .\ResearchOverhaul.lua ..\packed\ResearchOverhaul_Medium\ResearchOverhaul\
 for %%I in (.\*.cat .\*.dat) do move "%%I" ..\packed\ResearchOverhaul_Medium\ResearchOverhaul\
-"..\7z\7za.exe" a ..\packed\ResearchOverhaul_Medium.zip ..\packed\ResearchOverhaul_Medium\ResearchOverhaul\*
+"..\7z\7za.exe" a ..\packed\ResearchOverhaul_Medium.zip ..\packed\ResearchOverhaul_Medium\*
 pause

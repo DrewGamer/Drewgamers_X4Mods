@@ -1,3 +1,8 @@
+-- ffi setup, we need this since we are using C
+local ffi = require("ffi")
+local C = ffi.C
+
+-- setup local variabls
 local orig = {}
 local addRequiredResearchWares = {}
 
@@ -18,19 +23,19 @@ end
 
 function addRequiredResearchWares.expandNode(ftable, data)
     -- we do stuff here
-    AddUITriggeredEvent(menu.name, "research_selected", data.techdata.tech)
+    AddUITriggeredEvent(orig.menu.name, "research_selected", data.techdata.tech)
     -- NEW FROM MOD: added "resources" as a local
 	local description, researchtime, resources = GetWareData(data.techdata.tech, "description", "researchtime", "resources")
 
 	-- description
 	local row = ftable:addRow(nil, { fixed = true, bgColor = Helper.color.transparent })
 	row[1]:setColSpan(2):createText(description .. "\n ", { wordwrap = true })
-	if menu.currentResearch[data.techdata.tech] then
+	if orig.menu.currentResearch[data.techdata.tech] then
 		-- remaining time
 		local row = ftable:addRow(nil, { fixed = true, bgColor = Helper.color.transparent })
 		row[1]:setColSpan(2):createText(ReadText(1001, 7409))
 		local row = ftable:addRow(nil, { fixed = true, bgColor = Helper.color.transparent })
-		row[1]:setColSpan(2):createText(function () return ConvertTimeString(menu.currentResearch[data.techdata.tech] and (GetProductionModuleData(ConvertStringTo64Bit(tostring(menu.currentResearch[data.techdata.tech]))).remainingcycletime or 0) or 0) end, { halign = "right" })
+		row[1]:setColSpan(2):createText(function () return ConvertTimeString(orig.menu.currentResearch[data.techdata.tech] and (GetProductionModuleData(ConvertStringTo64Bit(tostring(menu.currentResearch[data.techdata.tech]))).remainingcycletime or 0) or 0) end, { halign = "right" })
 	elseif data.techdata.completed then
 		-- completed
 		local row = ftable:addRow(nil, { fixed = true, bgColor = Helper.color.transparent })
@@ -49,7 +54,7 @@ function addRequiredResearchWares.expandNode(ftable, data)
 		
 			for _, resourcedata in ipairs(resources) do
 				local row = ftable:addRow(nil, { fixed = true, bgColor = Helper.color.transparent })
-				local locamount = C.GetAmountOfWareAvailable(resourcedata.ware, menu.availableresearchmodule)
+				local locamount = C.GetAmountOfWareAvailable(resourcedata.ware, orig.menu.availableresearchmodule)
 				local resourcecolor = Helper.color.white
 
 				if locamount < resourcedata.amount then
@@ -63,10 +68,10 @@ function addRequiredResearchWares.expandNode(ftable, data)
 
 		-- start button
 		local row = ftable:addRow(true, { fixed = true, bgColor = Helper.color.transparent })
-		local isavailable = menu.isResearchAvailable(data.techdata.tech, data.mainIdx, data.col)
+		local isavailable = orig.menu.isResearchAvailable(data.techdata.tech, data.mainIdx, data.col)
 		local mouseovertext = ""
 		if not isavailable then
-            if menu.availableresearchmodule then
+            if orig.menu.availableresearchmodule then
                 -- NEW FROM MOD: changed text from 7402 to 7410 to account for missing resources
 				mouseovertext = "\27R" .. ReadText(1026, 7410)
 			else
@@ -75,12 +80,13 @@ function addRequiredResearchWares.expandNode(ftable, data)
 		end
 
 		row[1]:setColSpan(2):createButton({ active = isavailable, mouseOverText = mouseovertext }):setText(ReadText(1001, 7407))
-		row[1].handlers.onClick = function () return menu.buttonStartResearch(data.techdata) end
+		row[1].handlers.onClick = function () return orig.menu.buttonStartResearch(data.techdata) end
 		row[1].properties.uiTriggerID = data.techdata.tech
 	end
 
-	menu.restoreTableState("nodeTable", ftable)
-    -- we don't call the original function since we are replacing significant portions of it
+	orig.menu.restoreTableState("nodeTable", ftable)
+	-- we call the original function (do we really want to do this?!)
+	-- orig.expandNode()
 end
 
 
