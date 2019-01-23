@@ -1,14 +1,15 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="ResearchOverhaul" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin" version="1" date="2019-03-01" save="0" enabled="1">
-    <text language="7" name="Research Overhaul" description="Полный пересмотр исследований: каждое исследование требует ресурсов и занимает больше времени" author="Harlockin" />
-    <text language="33" name="Amélioration des recherches" description="Un refonte du système de recherche : les recherches requierts des marchandises et sont beaucoup plus longues" author="Harlockin" />
-    <text language="34" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin" />
-    <text language="39" name="Research Overhaul" description="Una completa rivisitazione del ramo Ricerca: ora ogni ricerca richiede molto più tempo così come risorse." author="Harlockin" />
-    <text language="44" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin" />
-    <text language="49" name="Research Overhaul" description="Eine komplett überarbeitete Forschung: Jede Forschung benötigt nun sowohl mehr Zeit, als auch mehr Waren" author="Harlockin" />
-    <text language="55" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin" />
-    <text language="81" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin" />
-    <text language="82" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin" />
-    <text language="86" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin" />
-    <text language="88" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin" />
+<content id="ResearchOverhaul" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin - Drewgamer" version="200" date="2019-22-01" save="0" enabled="1">
+    <text language="7" name="Research Overhaul" description="Полный пересмотр исследований: каждое исследование требует ресурсов и занимает больше времени" author="Harlockin - Drewgamer" />
+    <text language="33" name="Amélioration des recherches" description="Un refonte du système de recherche : les recherches requierts des marchandises et sont beaucoup plus longues" author="Harlockin - Drewgamer" />
+    <text language="34" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin - Drewgamer" />
+    <text language="39" name="Research Overhaul" description="Una completa rivisitazione del ramo Ricerca: ora ogni ricerca richiede molto più tempo così come risorse." author="Harlockin - Drewgamer" />
+    <text language="44" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin - Drewgamer" />
+    <text language="49" name="Research Overhaul" description="Eine komplett überarbeitete Forschung: Jede Forschung benötigt nun sowohl mehr Zeit, als auch mehr Waren" author="Harlockin - Drewgamer" />
+    <text language="55" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin - Drewgamer" />
+    <text language="81" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin - Drewgamer" />
+    <text language="82" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin - Drewgamer" />
+    <text language="86" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin - Drewgamer" />
+    <text language="88" name="Research Overhaul" description="A completely overhauled research: each research now requires more time as well as resources." author="Harlockin - Drewgamer" />
+    <dependency id="G_Work_Around" version="031" />
 </content>

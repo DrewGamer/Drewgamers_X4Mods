@@ -40,194 +40,227 @@
 	<!-- Teleportation	-->
 	<add sel="/wares/ware[@id='research_teleportation']/research">
 			<primary>
-				<ware ware="energycells" amount="150" />
-				<ware ware="smartchips" amount="30" />
-				<ware ware="antimatterconverters" amount="15" />
-				<ware ware="fieldcoils" amount="10" />
-				<ware ware="advancedelectronics" amount="5" />
+				<ware ware="energycells" amount="1350" />
+				<ware ware="smartchips" amount="270" />
+				<ware ware="antimatterconverters" amount="135" />
+				<ware ware="fieldcoils" amount="90" />
+				<ware ware="advancedelectronics" amount="45" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_teleportation_range_01']/research">
 			<primary>
-				<ware ware="energycells" amount="3156" />
-				<ware ware="smartchips" amount="631" />
-				<ware ware="antimatterconverters" amount="316" />
-				<ware ware="fieldcoils" amount="210" />
-				<ware ware="advancedelectronics" amount="105" />
+				<ware ware="energycells" amount="28404" />
+				<ware ware="smartchips" amount="5681" />
+				<ware ware="antimatterconverters" amount="2840" />
+				<ware ware="fieldcoils" amount="1894" />
+				<ware ware="advancedelectronics" amount="947" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_teleportation_range_02']/research">
 			<primary>
-				<ware ware="energycells" amount="12240" />
-				<ware ware="smartchips" amount="2448" />
-				<ware ware="antimatterconverters" amount="1224" />
-				<ware ware="fieldcoils" amount="816" />
-				<ware ware="advancedelectronics" amount="408" />
+				<ware ware="energycells" amount="110160" />
+				<ware ware="smartchips" amount="22032" />
+				<ware ware="antimatterconverters" amount="11016" />
+				<ware ware="fieldcoils" amount="7344" />
+				<ware ware="advancedelectronics" amount="3672" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_teleportation_range_03']/research">
 			<primary>
-				<ware ware="energycells" amount="55200" />
-				<ware ware="smartchips" amount="11040" />
-				<ware ware="antimatterconverters" amount="5520" />
-				<ware ware="fieldcoils" amount="3680" />
-				<ware ware="advancedelectronics" amount="1840" />
+				<ware ware="energycells" amount="496800" />
+				<ware ware="smartchips" amount="99360" />
+				<ware ware="antimatterconverters" amount="49680" />
+				<ware ware="fieldcoils" amount="33120" />
+				<ware ware="advancedelectronics" amount="16560" />
 			</primary>
 	</add>
 	<!-- Module Hack -->
 	<add sel="/wares/ware[@id='research_module_dock']/research">
 			<primary>
-				<ware ware="energycells" amount="3156" />
-				<ware ware="advancedelectronics" amount="105" />
+				<ware ware="energycells" amount="28404" />
+				<ware ware="advancedelectronics" amount="947" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_module_production']/research">
 			<primary>
-				<ware ware="energycells" amount="3156" />
-				<ware ware="advancedelectronics" amount="105" />
+				<ware ware="energycells" amount="28404" />
+				<ware ware="advancedelectronics" amount="947" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_module_storage']/research">
 			<primary>
-				<ware ware="energycells" amount="3156" />
-				<ware ware="advancedelectronics" amount="105" />
+				<ware ware="energycells" amount="28404" />
+				<ware ware="advancedelectronics" amount="947" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_module_defence']/research">
 			<primary>
-				<ware ware="energycells" amount="12240" />
-				<ware ware="advancedelectronics" amount="408" />
+				<ware ware="energycells" amount="110160" />
+				<ware ware="advancedelectronics" amount="3672" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_module_habitation']/research">
 			<primary>
-				<ware ware="energycells" amount="12240" />
-				<ware ware="advancedelectronics" amount="408" />
+				<ware ware="energycells" amount="110160" />
+				<ware ware="advancedelectronics" amount="3672" />
 			</primary>
 	</add>
 	<!-- Mods -->
 	<add sel="/wares/ware[@id='research_mod_engine_mk1']/research">
 			<primary>
-				<ware ware="energycells" amount="3156" />
-				<ware ware="smartchips" amount="631" />
-				<ware ware="antimatterconverters" amount="316" />
-				<ware ware="fieldcoils" amount="210" />
-				<ware ware="advancedelectronics" amount="105" />
-				<ware ware="engineparts" amount="105" />
+				<ware ware="energycells" amount="28404" />
+				<ware ware="smartchips" amount="5681" />
+				<ware ware="antimatterconverters" amount="2840" />
+				<ware ware="fieldcoils" amount="1894" />
+				<ware ware="advancedelectronics" amount="947" />
+				<ware ware="engineparts" amount="947" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_mod_shield_mk1']/research">
 			<primary>
-				<ware ware="energycells" amount="3156" />
-				<ware ware="smartchips" amount="631" />
-				<ware ware="antimatterconverters" amount="316" />
-				<ware ware="fieldcoils" amount="210" />
-				<ware ware="advancedelectronics" amount="105" />
-				<ware ware="shieldcomponents" amount="316" />
+				<ware ware="energycells" amount="28404" />
+				<ware ware="smartchips" amount="5681" />
+				<ware ware="antimatterconverters" amount="2840" />
+				<ware ware="fieldcoils" amount="1894" />
+				<ware ware="advancedelectronics" amount="947" />
+				<ware ware="shieldcomponents" amount="2840" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_mod_ship_mk1']/research">
 			<primary>
-				<ware ware="energycells" amount="3156" />
-				<ware ware="smartchips" amount="631" />
-				<ware ware="antimatterconverters" amount="316" />
-				<ware ware="fieldcoils" amount="210" />
-				<ware ware="advancedelectronics" amount="105" />
-				<ware ware="hullparts" amount="126" />
+				<ware ware="energycells" amount="28404" />
+				<ware ware="smartchips" amount="5681" />
+				<ware ware="antimatterconverters" amount="2840" />
+				<ware ware="fieldcoils" amount="1894" />
+				<ware ware="advancedelectronics" amount="947" />
+				<ware ware="hullparts" amount="1136" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_mod_weapon_mk1']/research">
 			<primary>
-				<ware ware="energycells" amount="3156" />
-				<ware ware="smartchips" amount="631" />
-				<ware ware="antimatterconverters" amount="316" />
-				<ware ware="fieldcoils" amount="210" />
-				<ware ware="advancedelectronics" amount="105" />
-				<ware ware="weaponcomponents" amount="158" />
+				<ware ware="energycells" amount="28404" />
+				<ware ware="smartchips" amount="5681" />
+				<ware ware="antimatterconverters" amount="2840" />
+				<ware ware="fieldcoils" amount="1894" />
+				<ware ware="advancedelectronics" amount="947" />
+				<ware ware="weaponcomponents" amount="1420" />
 			</primary>
 	</add>
+	<!-- Lv. 2 -->
 	<add sel="/wares/ware[@id='research_mod_engine_mk2']/research">
 			<primary>
-				<ware ware="energycells" amount="12240" />
-				<ware ware="smartchips" amount="2448" />
-				<ware ware="antimatterconverters" amount="1224" />
-				<ware ware="fieldcoils" amount="816" />
-				<ware ware="advancedelectronics" amount="408" />
-				<ware ware="engineparts" amount="408" />
+				<ware ware="energycells" amount="110160" />
+				<ware ware="smartchips" amount="22032" />
+				<ware ware="antimatterconverters" amount="11016" />
+				<ware ware="fieldcoils" amount="7344" />
+				<ware ware="advancedelectronics" amount="3672" />
+				<ware ware="engineparts" amount="3672" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_mod_shield_mk2']/research">
 			<primary>
-				<ware ware="energycells" amount="12240" />
-				<ware ware="smartchips" amount="2448" />
-				<ware ware="antimatterconverters" amount="1224" />
-				<ware ware="fieldcoils" amount="816" />
-				<ware ware="advancedelectronics" amount="408" />
-				<ware ware="shieldcomponents" amount="1224" />
+				<ware ware="energycells" amount="110160" />
+				<ware ware="smartchips" amount="22032" />
+				<ware ware="antimatterconverters" amount="11016" />
+				<ware ware="fieldcoils" amount="7344" />
+				<ware ware="advancedelectronics" amount="3672" />
+				<ware ware="shieldcomponents" amount="11016" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_mod_ship_mk2']/research">
 			<primary>
-				<ware ware="energycells" amount="12240" />
-				<ware ware="smartchips" amount="2448" />
-				<ware ware="antimatterconverters" amount="1224" />
-				<ware ware="fieldcoils" amount="816" />
-				<ware ware="advancedelectronics" amount="408" />
-				<ware ware="hullparts" amount="490" />
+				<ware ware="energycells" amount="110160" />
+				<ware ware="smartchips" amount="22032" />
+				<ware ware="antimatterconverters" amount="11016" />
+				<ware ware="fieldcoils" amount="7344" />
+				<ware ware="advancedelectronics" amount="3672" />
+				<ware ware="hullparts" amount="4406" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_mod_weapon_mk2']/research">
 			<primary>
-				<ware ware="energycells" amount="12240" />
-				<ware ware="smartchips" amount="2448" />
-				<ware ware="antimatterconverters" amount="1224" />
-				<ware ware="fieldcoils" amount="816" />
-				<ware ware="advancedelectronics" amount="408" />
-				<ware ware="weaponcomponents" amount="612" />
+				<ware ware="energycells" amount="110160" />
+				<ware ware="smartchips" amount="22032" />
+				<ware ware="antimatterconverters" amount="11016" />
+				<ware ware="fieldcoils" amount="7344" />
+				<ware ware="advancedelectronics" amount="3672" />
+				<ware ware="weaponcomponents" amount="5508" />
 			</primary>
 	</add>
 	<!-- Lv3. -->
 	<add sel="/wares/ware[@id='research_mod_engine_mk3']/research">
 			<primary>
-				<ware ware="energycells" amount="55200" />
-				<ware ware="smartchips" amount="11040" />
-				<ware ware="antimatterconverters" amount="5520" />
-				<ware ware="fieldcoils" amount="3680" />
-				<ware ware="advancedelectronics" amount="1840" />
-				<ware ware="engineparts" amount="1840" />
+				<ware ware="energycells" amount="496800" />
+				<ware ware="smartchips" amount="99360" />
+				<ware ware="antimatterconverters" amount="49680" />
+				<ware ware="fieldcoils" amount="33120" />
+				<ware ware="advancedelectronics" amount="16560" />
+				<ware ware="engineparts" amount="16560" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_mod_shield_mk3']/research">
 			<primary>
-				<ware ware="energycells" amount="55200" />
-				<ware ware="smartchips" amount="11040" />
-				<ware ware="antimatterconverters" amount="5520" />
-				<ware ware="fieldcoils" amount="3680" />
-				<ware ware="advancedelectronics" amount="1840" />
-				<ware ware="shieldcomponents" amount="5520" />
+				<ware ware="energycells" amount="496800" />
+				<ware ware="smartchips" amount="99360" />
+				<ware ware="antimatterconverters" amount="49680" />
+				<ware ware="fieldcoils" amount="33120" />
+				<ware ware="advancedelectronics" amount="16560" />
+				<ware ware="shieldcomponents" amount="49680" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_mod_ship_mk3']/research">
 			<primary>
-				<ware ware="energycells" amount="55200" />
-				<ware ware="smartchips" amount="11040" />
-				<ware ware="antimatterconverters" amount="5520" />
-				<ware ware="fieldcoils" amount="3680" />
-				<ware ware="advancedelectronics" amount="1840" />
-				<ware ware="hullparts" amount="2208" />
+				<ware ware="energycells" amount="496800" />
+				<ware ware="smartchips" amount="99360" />
+				<ware ware="antimatterconverters" amount="49680" />
+				<ware ware="fieldcoils" amount="33120" />
+				<ware ware="advancedelectronics" amount="16560" />
+				<ware ware="hullparts" amount="19872" />
 			</primary>
 	</add>
 	<add sel="/wares/ware[@id='research_mod_weapon_mk3']/research">
 			<primary>
-				<ware ware="energycells" amount="55200" />
-				<ware ware="smartchips" amount="11040" />
-				<ware ware="antimatterconverters" amount="5520" />
-				<ware ware="fieldcoils" amount="3680" />
-				<ware ware="advancedelectronics" amount="1840" />
-				<ware ware="weaponcomponents" amount="2760" />
+				<ware ware="energycells" amount="496800" />
+				<ware ware="smartchips" amount="99360" />
+				<ware ware="antimatterconverters" amount="49680" />
+				<ware ware="fieldcoils" amount="33120" />
+				<ware ware="advancedelectronics" amount="16560" />
+				<ware ware="weaponcomponents" amount="24840" />
 			</primary>
 	</add>
 </diff><?xml version="1.0" encoding="utf-8"?>
+<mdscript name="ResearchOverhaul" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:noNamespaceSchemaLocation="md.xsd">
+  <cues>
+    <cue name="RegisterMyResearchOverhaul" version="1">
+      <conditions>
+        <event_cue_completed cue="md.G_Workaround.Init" />
+      </conditions>
+      <actions>
+        <raise_lua_event name="'RegisterAddon'" param="'extensions/ResearchOverhaul/ResearchOverhaul.lua'" />
+      </actions>
+    </cue>
+    <cue name="Feedback_Wanted">
+      <conditions>
+        <event_cue_completed cue="RegisterMyResearchOverhaul" />
+      </conditions>
+      <actions>
+        <debug_text text="'ResearchOverhaul Cue Loaded'" filter="error" />
+        <reset_cue cue="RegisterMyResearchOverhaul" />
+        <reset_cue cue="Feedback_Wanted" />
+      </actions>
+    </cue>
+    <!--<cue name="Reset" version="2">
+      <conditions>
+        <event_game_loaded />
+      </conditions>
+      <actions>
+        <reset_cue cue="RegistermyMod"/>
+        <reset_cue cue="Feedback_Wanted"/>
+        <reset_cue cue="Reset"/>
+      </actions>
+    </cue>-->
+  </cues>
+</mdscript><?xml version="1.0" encoding="utf-8"?>
 <diff>
 	<add sel="/language/page[@id='1026']">
 		<t id="7410">Не закончено предыдущее исследование или не хватает ресурсов</t>
