@@ -1,0 +1,11 @@
+<?xml version="1.0"?>
+
+<diff>
+	<replace sel="//components/component/layers/layer/lights/omni[@name='XU Omni01']/@r">25</replace>
+	<replace sel="//components/component/layers/layer/lights/omni[@name='XU Omni01']/@g">135</replace>
+	<replace sel="//components/component/layers/layer/lights/omni[@name='XU Omni01']/@b">220</replace>
+	<replace sel="//components/component/layers/layer/lights/omni[@name='XU Omni01']/@range">250</replace>
+	<replace sel="//components/component/layers/layer/lights/omni[@name='XU Omni01']/@intensity">6</replace>
+	<replace sel="//components/component/layers/layer/lights/omni[@name='XU Omni01']/@specularintensity">1</replace>
+	<replace sel="//components/component/layers/layer/lights/omni[@name='XU Omni01']/@shadowrange">0.01</replace>
+</diff>
