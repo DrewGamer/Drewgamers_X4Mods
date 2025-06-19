@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//dataset[@class='ship_xl']/properties/storage/@countermeasure">50</replace>
+	<replace sel="//dataset[@class='ship_l']/properties/storage/@countermeasure">25</replace>
+	<replace sel="//dataset[@class='ship_m']/properties/storage/@countermeasure">10</replace>
+	<replace sel="//dataset[@class='ship_s']/properties/storage/@countermeasure">5</replace>
+</diff>

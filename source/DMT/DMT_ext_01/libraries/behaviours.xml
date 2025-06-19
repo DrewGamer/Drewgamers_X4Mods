@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8" ?>
+
+<!--
+<diff>
+	<replace sel="/behaviours/set[@name='default']/evade/behaviour[@name='hardbrake']/@chance">5</replace>
+	<replace sel="/behaviours/set[@name='default']/evade/behaviour[@name='gaindistance']/@chance">0</replace>
+	<replace sel="/behaviours/set[@name='default']/evade/behaviour[@name='runaway']/@chance">10</replace>
+	
+	<replace sel="/behaviours/set[@name='split']/evade/behaviour[@name='gaindistance']/@chance">0</replace>
+	<replace sel="/behaviours/set[@name='teladi']/evade/behaviour[@name='gaindistance']/@chance">0</replace>
+	<replace sel="/behaviours/set[@name='xenon']/evade/behaviour[@name='gaindistance']/@chance">0</replace>
+</diff>
+<behaviours >
+  <set name="default">
+    <normal>
+      <behaviour name="dogfight1"       chance="60" />
+      <behaviour name="dogfight2"       chance="50" />
+      <behaviour name="chase"           chance="40" minskill="20" />
+    </normal>
+    <evade>
+      <behaviour name="hardbrake"       chance="5" />
+      <behaviour name="evasive_loop"    chance="65" minskill="20" />
+      <behaviour name="evasive_simple"  chance="50" />
+      <behaviour name="evasive_roll"    chance="5" />
+      <behaviour name="evasive_spiral"  chance="55" />
+      <behaviour name="evasive_random"  chance="40" />
+      <behaviour name="runaway"         chance="10" minskill="50" />
+      <behaviour name="crazyivan"       chance="10" minskill="30" />
+      <behaviour name="spiral"          chance="55" minskill="40" />
+      <behaviour name="gaindistance"    chance="35" minskill="30" />
+    </evade>
+  </set>
+  <set name="drone">
+    <normal>
+      <behaviour name="dogfight1"       chance="60" />
+      <behaviour name="chase"           chance="40" />
+    </normal>
+    <evade>
+      <behaviour name="evasive_loop"    chance="65" />
+      <behaviour name="evasive_simple"  chance="50" />
+      <behaviour name="evasive_spiral"  chance="55" />
+      <behaviour name="evasive_random"  chance="40" />
+      <behaviour name="spiral"          chance="55" />
+      <behaviour name="gaindistance"    chance="15" />
+    </evade>
+  </set>
+  <set name="khaak" default="khaak">
+    <normal>
+      <behaviour name="khaak"           chance="100" />
+    </normal>
+    <evade>
+      <behaviour name="evasive_loop"    chance="65" minskill="20" />
+      <behaviour name="evasive_simple"  chance="50" />
+      <behaviour name="evasive_spiral"  chance="55" />
+      <behaviour name="evasive_random"  chance="40" minskill="50" />
+    </evade>
+  </set>
+  <set name="split">
+    <normal>
+      <behaviour name="dogfight1"       chance="60" minskill="20" />
+      <behaviour name="dogfight2"       chance="50" />
+      <behaviour name="chase"           chance="50" />
+    </normal>
+    <evade>
+      <behaviour name="hardbrake"       chance="10" />
+      <behaviour name="evasive_loop"    chance="25" minskill="20" />
+      <behaviour name="evasive_simple"  chance="50" />
+      <behaviour name="evasive_roll"    chance="10" />
+      <behaviour name="evasive_spiral"  chance="25" />
+      <behaviour name="evasive_random"  chance="40" />
+      <behaviour name="runaway"         chance="40" minskill="25" />
+      <behaviour name="crazyivan"       chance="10" minskill="30" />
+      <behaviour name="spiral"          chance="20" minskill="30" />
+      <behaviour name="gaindistance"    chance="35" minskill="30" />
+    </evade>
+  </set>
+  <set name="teladi">
+    <normal>
+      <behaviour name="dogfight1"       chance="40" />
+      <behaviour name="dogfight2"       chance="35" />
+      <behaviour name="chase"           chance="30" minskill="2 0" />
+    </normal>
+    <evade>
+      <behaviour name="hardbrake"       chance="15" />
+      <behaviour name="evasive_loop"    chance="20" minskill="10" />
+      <behaviour name="evasive_simple"  chance="20" />
+      <behaviour name="evasive_roll"    chance="15" />
+      <behaviour name="evasive_spiral"  chance="15" />
+      <behaviour name="evasive_random"  chance="40" />
+      <behaviour name="runaway"         chance="30" minskill="10" />
+      <behaviour name="crazyivan"       chance="30" minskill="15" />
+      <behaviour name="spiral"          chance="15" minskill="20" />
+      <behaviour name="gaindistance"    chance="35" minskill="30" />
+    </evade>
+  </set>
+  <set name="xenon">
+    <normal>
+      <behaviour name="dogfight1"       chance="60" />
+      <behaviour name="dogfight2"       chance="50" minskill="10" />
+      <behaviour name="chase"           chance="70" />
+    </normal>
+    <evade>
+      <behaviour name="evasive_loop"    chance="65" minskill="20" />
+      <behaviour name="evasive_simple"  chance="50" />
+      <behaviour name="evasive_spiral"  chance="55" />
+      <behaviour name="evasive_random"  chance="40" minskill="50" />
+      <behaviour name="runaway"         chance="10" minskill="50" />
+      <behaviour name="crazyivan"       chance="10" minskill="30" />
+      <behaviour name="spiral"          chance="55" minskill="40" />
+      <behaviour name="gaindistance"    chance="35" minskill="30" />
+    </evade>
+  </set>
+</behaviours>
+-->

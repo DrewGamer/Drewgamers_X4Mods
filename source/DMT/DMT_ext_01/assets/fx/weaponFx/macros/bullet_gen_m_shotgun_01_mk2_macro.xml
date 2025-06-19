@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//bullet/@speed">14514</replace>
+	<replace sel="//bullet/@lifetime">0.254</replace>
+  <replace sel="//bullet/@amount">6</replace>
+  <replace sel="//heat/@value">97</replace>
+  <replace sel="//damage/@value">91.25</replace>
+</diff>
+<!--
+<macros>
+  <macro name="bullet_gen_m_shotgun_01_mk2_macro" class="bullet">
+    <component ref="bullet_gen_m_shotgun_01_mk2" />
+    <properties>
+      <bullet speed="4838" lifetime="0.762" amount="5" barrelamount="1" icon="weapon_shotgun_mk2" timediff="0.004" angle="1" maxhits="3" ricochet="0.5" restitution="1" scale="0" attach="0" />
+      <heat value="117" />
+      <reload rate="1" />
+      <damage value="73" repair="0" />
+      <effects>
+        <impact ref="impact_gen_m_shotgun_01_mk1" />
+        <launch ref="muzzle_gen_m_shotgun_01_mk1" />
+      </effects>
+      <weapon system="weapon_standard" />
+    </properties>
+  </macro>
+</macros>
+-->

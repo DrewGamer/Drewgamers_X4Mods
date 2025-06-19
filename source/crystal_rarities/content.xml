@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="utf-8"?>
+<content id="ws_2069554360" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer" version="300" date="2021-04-12" save="0" enabled="1" sync="false" lastupdate="1587497663">
+  <text language="7" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer"/>
+  <text language="33" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer"/>
+  <text language="34" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer"/>
+  <text language="39" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer"/>
+  <text language="44" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer"/>
+  <text language="49" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer"/>
+  <text language="86" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer"/>
+  <text language="88" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer"/>
+  <dependency id="ego_dlc_split" optional="true" name="Split Vendetta"/>
+  <dependency id="ego_dlc_terran" optional="true" name="Cradle of Humanity"/>
+</content>

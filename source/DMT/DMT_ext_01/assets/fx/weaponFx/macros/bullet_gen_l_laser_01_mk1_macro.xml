@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+  <replace sel="//macro">
+    <macro name="bullet_gen_l_laser_01_mk1_macro" class="bullet">
+      <component ref="bullet_par_m_railgun_01_mk2" /> <!--TODO: change to bullet_gen_l_laser_01_mk1 MAYBE!?!?!? -->
+      <properties>
+        <bullet speed="20000" lifetime="0.5" amount="1" barrelamount="2" icon="weapon_railgun_mk2" maxhits="1" ricochet="0" scale="1" attach="0" />
+        <heat value="585" />
+        <reload rate="0.5" />
+        <damage value="3000" repair="0" />
+        <effects>
+          <impact ref="impact_gen_l_laser_01_mk1" />
+          <launch ref="muzzle_gen_l_laser_01_mk1" />
+        </effects>
+        <weapon system="weapon_standard" />
+      </properties>
+    </macro>
+  </replace>
+</diff>
+<!--
+<macros>
+  <macro name="bullet_gen_l_laser_01_mk1_macro" class="bullet">
+    <component ref="bullet_gen_l_laser_01_mk1" />
+    <properties>
+      <ammunition value="3" reload="2" />
+      <bullet speed="2074" lifetime="3.75" amount="1" barrelamount="1" icon="weapon_laser_mk1" timediff="0.008" angle="0.08" maxhits="1" ricochet="0" scale="0" attach="0" />
+      <heat value="135" />
+      <reload rate="2.15" />
+      <damage value="703" repair="0" />
+      <effects>
+        <impact ref="impact_gen_l_laser_01_mk1" />
+        <launch ref="muzzle_gen_l_laser_01_mk1" />
+      </effects>
+      <weapon system="weapon_standard" />
+    </properties>
+  </macro>
+</macros>
+-->

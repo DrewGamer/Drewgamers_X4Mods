@@ -1,0 +1,36 @@
+<?xml version="1.0" encoding="utf-8"?>
+<diff>
+	<replace sel="//bullet/@speed">6222</replace>
+	<replace sel="//bullet/@lifetime">1.61</replace>
+  <replace sel="//heat/@value">315</replace>
+  <replace sel="//reload/@rate">4</replace>
+	<replace sel="//damage/@value">1225.5</replace>
+</diff>
+<!--
+<macros>
+  <macro name="bullet_xen_l_laser_01_mk1_macro" class="bullet">
+    <component ref="bullet_xen_l_laser_01_mk1" />
+    <properties>
+      <ammunition value="2" reload="1" />
+      <bullet speed="2074" lifetime="3.75" amount="1" barrelamount="1" icon="weapon_laser_mk1" timediff="0.004" angle="0.04" maxhits="1" ricochet="0" scale="0" attach="0" />
+      <heat value="315" />
+      <reload rate="4" />
+      <damage value="817" repair="0" />
+      <effects>
+        <impact ref="impact_xen_m_laser_01_mk1" />
+        <launch ref="muzzle_xen_m_laser_01_mk1" />
+      </effects>
+    </properties>
+  </macro>
+</macros>
+
+OLD DPS per barrel
+
+R = reload time
+B = bullets in magazine
+F = bullets per second
+D = damage per bullet
+DPS = B∗D/(R+B/F)
+
+2*817 / 1 + 2/4 = 1089
+-->
