@@ -506,6 +506,22 @@
         <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
       </rule>
 
+      <!-- Scale Plate Green VII -->
+      <rule fieldtype="asteroid" region="region_cluster_21_sector_002_b" chance="7" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_21_sector_002_b" chance="20" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
       <!-- Faulty Logic I -->
       <rule fieldtype="asteroid" region="region_cluster_25_sector_001" chance="11" maxsize="250">
         <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
@@ -982,6 +998,272 @@
         <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
       </rule>
 
+      <!-- Cardinal's Domain -->
+      <rule fieldtype="asteroid" region="region_cluster_709_sector_001_asteroids_1" chance="7" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_709_sector_001_asteroids_1" chance="20" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- Moo-Key's Revenge -->
+      <rule fieldtype="asteroid" region="region_cluster_710_sector_001_asteroids_1" chance="9" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_710_sector_001_asteroids_1" chance="26" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <rule fieldtype="asteroid" region="region_cluster_710_sector_001_asteroids_2" chance="7" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_710_sector_001_asteroids_2" chance="20" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- Mi Ton's Refuge -->
+      <rule fieldtype="asteroid" region="region_cluster_711_sector_001_asteroids_1" chance="9" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_711_sector_001_asteroids_1" chance="26" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <rule fieldtype="asteroid" region="region_cluster_711_sector_001_asteroids_2" chance="11" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_711_sector_001_asteroids_2" chance="32" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- Loomanckstrat's Legacy -->
+      <rule fieldtype="asteroid" region="region_cluster_712_sector_001_asteroids_1" chance="11" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_712_sector_001_asteroids_1" chance="32" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- CEO's Doubt -->
+      <rule fieldtype="asteroid" region="region_cluster_713_sector_001_asteroids_1" chance="9" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_713_sector_001_asteroids_1" chance="20" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- Freedom's Reach -->
+      <rule fieldtype="asteroid" region="region_cluster_714_sector_001_asteroids_1" chance="10" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_714_sector_001_asteroids_1" chance="7" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <rule fieldtype="asteroid" region="region_cluster_714_sector_001_asteroids_2" chance="10" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_714_sector_001_asteroids_2" chance="7" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <rule fieldtype="asteroid" region="region_cluster_714_sector_001_asteroids_3" chance="10" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_714_sector_001_asteroids_3" chance="7" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- Mists of Artemis -->
+      <rule fieldtype="asteroid" region="region_cluster_715_sector_001_asteroids_1" chance="11" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_715_sector_001_asteroids_1" chance="32" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- 7.50 -->
+      <!-- Ore Belt -->
+      <rule fieldtype="asteroid" region="region_cluster_720_sector_001_asteroids_1" chance="9" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_720_sector_001_asteroids_1" chance="15" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <rule fieldtype="asteroid" region="region_cluster_720_sector_001_asteroids_2" chance="9" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_720_sector_001_asteroids_2" chance="15" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- Sanctum Verge -->
+      <rule fieldtype="asteroid" region="region_cluster_722_sector_001_asteroids_1" chance="9" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_722_sector_001_asteroids_1" chance="15" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <rule fieldtype="asteroid" region="region_cluster_722_sector_001_asteroids_2" chance="11" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_722_sector_001_asteroids_2" chance="20" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <rule fieldtype="asteroid" region="region_cluster_722_sector_001_asteroids_3" chance="11" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_722_sector_001_asteroids_3" chance="20" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- Tempting Fumes -->
+      <rule fieldtype="asteroid" region="region_cluster_723_sector_001_asteroids_1" chance="11" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_723_sector_001_asteroids_1" chance="20" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
       <!-- The following sectors are for the Split DLC -->
       <!-- Family Zhin -->
       <rule fieldtype="asteroid" region="region_cluster_401_sector_001" chance="10" maxsize="250">
@@ -1078,7 +1360,7 @@
         <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
       </rule>
 
-      <!-- Tharka's Ravine IV -->
+      <!-- Tharka's Ravine IV Tharka's Fall -->
       <rule fieldtype="asteroid" region="region_cluster_413_sector_001" chance="5" maxsize="250">
         <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
         <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
@@ -1135,6 +1417,22 @@
         <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
       </rule>
       <rule fieldtype="asteroid" region="region_cluster_418_sector_001_d" chance="23" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- Two Grand -->
+      <rule fieldtype="asteroid" region="region_cluster_420_sector_001" chance="8" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_cluster_420_sector_001" chance="23" minsize="250">
         <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
         <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
         <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
@@ -1223,6 +1521,22 @@
         <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
       </rule>
 
+      <!-- Saturn -->
+      <rule fieldtype="asteroid" region="saturn_field" chance="9" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="saturn_field" chance="27" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
       <!-- Oort Cloud -->
       <rule fieldtype="asteroid" region="oort_field" chance="9" maxsize="250">
         <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
@@ -1296,6 +1610,71 @@
         <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
       </rule>
       <rule fieldtype="asteroid" region="cluster113_region01" chance="29" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- The following sectors are for the Tides of Avarice DLC -->
+      <!-- wave_asteroids -->
+      <rule fieldtype="asteroid" region="wave_asteroids" chance="10" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="wave_asteroids" chance="29" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- s2_grav -->
+      <rule fieldtype="asteroid" region="s2_grav" chance="10" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="s2_grav" chance="29" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- s2_grav_small -->
+      <rule fieldtype="asteroid" region="s2_grav_small" chance="10" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="s2_grav_small" chance="29" minsize="250">
+        <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_m_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_m_05_macro" weight="3"/>
+      </rule>
+
+      <!-- Windfall I -->
+      <rule fieldtype="asteroid" region="region_c501s01_res" chance="10" maxsize="250">
+        <select macro="env_ast_crystal_detail_s_01_macro" weight="60"/>
+        <select macro="env_ast_crystal_detail_s_02_macro" weight="17"/>
+        <select macro="env_ast_crystal_detail_s_03_macro" weight="12"/>
+        <select macro="env_ast_crystal_detail_s_04_macro" weight="9"/>
+        <select macro="env_ast_crystal_detail_s_05_macro" weight="3"/>
+      </rule>
+      <rule fieldtype="asteroid" region="region_c501s01_res" chance="29" minsize="250">
         <select macro="env_ast_crystal_detail_m_01_macro" weight="60"/>
         <select macro="env_ast_crystal_detail_m_02_macro" weight="17"/>
         <select macro="env_ast_crystal_detail_m_03_macro" weight="12"/>

@@ -8,4 +8,4 @@ assets/environments/asteroids/crystals/env_ast_crystal_detail_s_02.xml 779 15882
 assets/environments/asteroids/crystals/env_ast_crystal_detail_s_03.xml 781 1588267369 c748676856e1cce46db8e55ef5c092df
 assets/environments/asteroids/crystals/env_ast_crystal_detail_s_04.xml 781 1588267352 370f196a68b9b88c4c54537e77f0174e
 assets/environments/asteroids/crystals/env_ast_crystal_detail_s_05.xml 780 1588267388 11068b6ec016c3048ba156f8f0e894a0
-libraries/objectspawnrules.xml 76761 1618261783 93aaccb139cc29dd04d624bd2b762b9e
+libraries/objectspawnrules.xml 100610 1750647566 9eff8329f74c17277080218b19eb62d7
