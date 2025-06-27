@@ -1,6 +1,0 @@
-<?xml version="1.0"?>
-<diff>
-	<replace sel="//size/max">
-		<max x="0.4" y="0.4" z="12"/>
-	</replace>
-</diff>

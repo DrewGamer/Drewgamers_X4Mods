@@ -1,5 +1,0 @@
-<?xml version="1.0" encoding="utf-8" ?>
-<diff>
-	<replace sel="/aiscript/attention[@min='visible']/actions/do_while[@value='$target.isoperational']/do_if[@value='$target.isoperational']/move_to[@object='this.ship']/@boost">false</replace>
-	<!--add sel="/aiscript/attention[@min='visible']/actions/do_while[@value='$target.isoperational']/move_to[@flightbehaviour='$Behaviour']"><do_if value="this.ship != player.controlled and $target != player.controlled"><signal_objects object="player.galaxy" param="'NPCvsNPCAttack'" param2="this.ship" param3="$target"/></do_if></add-->
-</diff>
