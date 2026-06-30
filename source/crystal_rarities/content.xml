@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<content id="ws_2069554360" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer" version="400" date="2021-04-12" save="0" enabled="1" sync="false" lastupdate="1587497663">
+<content id="ws_2069554360" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer" version="500" date="2026-06-29" save="0" enabled="1" sync="false" lastupdate="1587497663">
   <text language="7" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer"/>
   <text language="33" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer"/>
   <text language="34" name="Crystal Rarities" description="Changes colors of crystals to be similar to 'typical' RPG item rarities. Also modifies/tweaks Crystal spawn rate." author="Drewgamer"/>
@@ -14,4 +14,5 @@
   <dependency id="ego_dlc_boron" optional="true" name="Kingdom End"/>
   <dependency id="ego_dlc_timelines" optional="true" name="Timelines"/>
   <dependency id="ego_dlc_mini_01" optional="true" name="Hyperion Pack"/>
+  <dependency id="ego_dlc_mini_02" optional="true" name="Envoy Pack"/>
 </content>

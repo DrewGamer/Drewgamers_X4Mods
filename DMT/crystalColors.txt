@@ -1,7 +1,0 @@
-glow - name - game files color
-
-white - bandannite - purple
-green - menelaene - blue
-blue - aguilite - green
-purple - mitonene - yellow
-orange - burnite - clear/nameless
